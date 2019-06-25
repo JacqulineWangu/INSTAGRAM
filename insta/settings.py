@@ -56,7 +56,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'awb!gn%r9&+kf0c#9n@(l6r8tw72ve+54a%p6^*0c43w#62gxw'
+SECRET_KEY = 'awb!gn%r9&+kf0c#9n@(l6r8tw72ve+54a%p6^*0c43w#62gxw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -65,8 +65,8 @@ ALLOWED_HOSTS = []
 
 
 # UPLOADCARE = {
-#     'pub_key': 'antaviokey',
-#     'secret': 'antavioprivatekey',
+    
+#     'secret': 'awb!gn%r9&+kf0c#9n@(l6r8tw72ve+54a%p6^*0c43w#62gxw',
 # }
 
 
@@ -121,12 +121,12 @@ WSGI_APPLICATION = 'insta.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation
