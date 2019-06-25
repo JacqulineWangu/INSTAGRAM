@@ -1,6 +1,12 @@
-from django.contrib import admin
-# from .models import Image,Profile
+from django import forms
+from .models import Image,Profile
 
-# # Register your models here.
-# admin.site.register(Image)
-# admin.site.register(Profile)
+class ImageForm(forms.ModelForm):
+    class Meta:
+        model = Image
+        exclude = ['insta_user','date_posted']
+
+class ProfileEditorForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        exclude = ['user_profile']
