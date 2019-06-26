@@ -23,7 +23,7 @@ They can also click on the profile button from where they can view all their inf
 - git clone `https://github.com/JacqulineWangu/Instagram.git`
 - install `python 3.6`
 - Install [Postgresql](https://www.postgresql.org/download/)
-- cd The_Gram
+- cd INSTAGRAM
 - Navigate to the virtual environment using `source virtual/bin/activate`
 - `atom .`  //For those using atom text editor.
 - `code .`  //For those using Visual Studio editor.
