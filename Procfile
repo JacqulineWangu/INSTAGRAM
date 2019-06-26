@@ -1,1 +1,1 @@
-web: gunicorn the_gram.wsgi --log-file -
+web: gunicorn insta.wsgi --log-file -
